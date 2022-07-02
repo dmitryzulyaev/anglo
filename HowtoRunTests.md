@@ -1,8 +1,9 @@
 Playwright tests:
-1. Change directory to: /tests 
-2. Run command: npx playwright test NewCartIsEmpty.spec.js --headed  
+1. Change directory to: /anglo 
+2. Run command: npx playwright test --headed
+3. Show report: npx playwright show-report
 
 Cucumber tests:
-1. Change directory to: /features 
+1. Change directory to: /anglo 
 2. Run command:  npx cucumber-js --exit
 

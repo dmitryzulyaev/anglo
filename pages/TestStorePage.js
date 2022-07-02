@@ -17,7 +17,4 @@ exports.TestStorePage = class TestStorePage {
     await expect(this.page).toHaveTitle('A place to practice your automation skills!');
   }
 
-  async validateUserIsGuest() {
-    await expect(this.page).locator('#customer_menu_top > li > a').toHaveText('Login or register');
-  }
 }

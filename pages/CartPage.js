@@ -17,4 +17,5 @@ exports.CartPage = class CartPage {
   async validateCartIsEmpty() {
     await expect(this.contentpanel).toBeVisible();
   }
+
 }
